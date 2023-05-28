@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filters">
+    <item android:id="@+id/menu_item1"
+        android:title="Restaurant"
+        android:icon="@drawable/restaurant"
+        />
+    <item android:id="@+id/menu_item2"
+        android:title="Cinema"
+        android:icon="@drawable/cinema"
+        />
+    <item android:id="@+id/menu_item3"
+        android:title="Barbershop"
+        android:icon="@drawable/scissors"
+        />
+    <item android:id="@+id/menu_item4"
+        android:title="Dentist"
+        android:icon="@drawable/tooth"
+        />
+</menu>

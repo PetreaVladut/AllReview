@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_drawer_fragment"
+    app:startDestination="@id/home">
+    <activity
+        android:id="@+id/home"
+        android:name="com.example.teest.MainActivity2"
+        android:label="Home" />
+
+    <activity
+        android:id="@+id/account"
+        android:name="com.example.teest.MainActivity6"
+        android:label="Account" />
+
+    <activity
+        android:id="@+id/newrev"
+        android:name="com.example.teest.MainActivity3"
+        android:label="New Review" />
+    <!-- Define navigation actions between activities -->
+    <action
+        android:id="@+id/action_main_to_second"
+        app:destination="@id/home" />
+
+    <action
+        android:id="@+id/action_main_to_third"
+        app:destination="@id/home" />
+    <action
+        android:id="@+id/action_main_to_main"
+        app:destination="@id/home" />
+
+    <action
+        android:id="@+id/action_second_to_main"
+        app:destination="@id/account" />
+
+    <action
+        android:id="@+id/action_second_to_third"
+        app:destination="@id/account" />
+    <action
+        android:id="@+id/action_second_to_second"
+        app:destination="@id/account" />
+
+    <action
+        android:id="@+id/action_third_to_main"
+        app:destination="@id/newrev" />
+
+    <action
+        android:id="@+id/action_third_to_second"
+        app:destination="@id/newrev" />
+    <action
+        android:id="@+id/action_third_to_third"
+        app:destination="@id/newrev" />
+</navigation>
